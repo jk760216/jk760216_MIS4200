@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Jack's Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Jack Koch's MIS 4200 Page</h1>
+    <p class="lead">MIS/Analytics Senior in the OU COB</p>
+    <p><a href="cob.ohio.edu" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>MIS/Analytics Major</h2>
+        <p>
+            The MIS/Analytics major prepares students for real world application in SQL, Excel, Visual Studio
+            among other software platforms for mining and analyzing data.
+        </p>
+        <p><a class="Information from COB" href="cob.ohio.edu">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Jack's Clubs and Organizations</h2>
+        <p>
+            Phi Kappa Psi Ohio Nu
+            Information Systems and Analytics Professionals
+        <p><a class="Extracurricular Info" href="cob.ohio.edu">Learn more &raquo;</a></p>
+        @Html.ActionLink("Doctor", "Index", "Doctors") <br />
+        @Html.ActionLink("Patient", "Index", "Patients") <br />
+        @Html.ActionLink("Appointment", "Index", "Appointments") <br />
+
+
+    </div>
+    <div class="col-md-4">
+        <h2>Internships/Jobs</h2>
+        <p>DHL Supply Chain Summer 2020 Implementation Analytics Internship</p>
+        <p><a class="DHL Supply Chain" href="www.dhl.com">Learn more &raquo;</a></p>
+       
+    </div>
+</div>
